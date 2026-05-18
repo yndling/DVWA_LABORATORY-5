@@ -1,0 +1,17 @@
+# Local config (copy from config.inc.php.dist)
+config/config.inc.php
+
+# Uploads and session data
+hackable/uploads/*
+!hackable/uploads/.gitkeep
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Logs
+*.log
