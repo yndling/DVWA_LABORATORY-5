@@ -2,8 +2,9 @@
 
 **Application:** Damn Vulnerable Web Application (DVWA)  
 **Environment:** http://localhost/DVWA/ (XAMPP, security level: Low)  
-**Tester:** _[Your name]_  
-**Date:** _[Date]_  
+**Tester:** _[Add your name before submitting]_  
+**Date:** May 2026  
+**Repository:** https://github.com/yndling/DVWA_LABORATORY-5  
 
 ---
 
@@ -245,10 +246,27 @@ DVWA at **Low** security demonstrates multiple SQL injection classes caused by *
 
 ## 9. Appendix — submission checklist
 
-- [ ] Screenshot: Security level **Low**
-- [ ] Screenshot: `1' OR '1'='1` (all users)
-- [ ] Screenshot: Union passwords payload
-- [ ] Screenshot: Blind true/false (or login bypass)
-- [ ] Report (this document) — fill name and date
-- [ ] Secure source files listed in Section 5
-- [ ] `VULNERABLE_VS_SECURE_COMPARISON.md` attached or summarized in report
+### Repository deliverables (complete)
+
+- [x] Report (this document)
+- [x] `VULNERABLE_VS_SECURE_COMPARISON.md`
+- [x] Secure source: `vulnerabilities/sqli/source/secure_version.php`
+- [x] Secure source: `vulnerabilities/sqli/source/fixed_secure.php`
+- [x] Secure source: `vulnerabilities/sqli_blind/source/secure_version.php`
+- [x] Secure source: `vulnerabilities/brute/source/secure_version.php`
+- [x] Secure login: `login_secure_example.php`
+- [x] Guides: `SQL_INJECTION_GUIDE.md`, `PRACTICAL_SQL_INJECTION_TESTING.md`
+- [x] Index: `ASSIGNMENT_DELIVERABLES.md`
+- [x] Pushed to GitHub
+
+### Screenshots (add to `screenshots/` folder)
+
+- [ ] `01_security_low.png` — Security level **Low**
+- [ ] `02_basic_sqli.png` — `1' OR '1'='1` (all users)
+- [ ] `03_union_passwords.png` — Union payload / password hashes
+- [ ] `04_blind_boolean.png` — Blind true/false (or `05_login_bypass.png`)
+
+### Before final submit
+
+- [ ] Add your name at top of this report
+- [ ] Insert screenshots into PDF (if required by instructor)
